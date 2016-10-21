@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'nerislight';
+    src: url('fuentes/neris-light-webfont.woff2') format('woff2'),
+         url('fuentes/neris-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: "nerislight";
+	font-size:60px;
+}
