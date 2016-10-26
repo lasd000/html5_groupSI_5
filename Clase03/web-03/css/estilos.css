@@ -14,6 +14,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
+	font-size:0;
 }
 
 .cabecera header .logo {
@@ -22,7 +23,13 @@ body {
 
 .cabecera header .redes-menu {
 	float: right;
+	width:807px;
+	background-color: brown;
 }
+
+.cabecera header .redes-menu .redes {
+	text-align: right;
+} 
 
 
 
