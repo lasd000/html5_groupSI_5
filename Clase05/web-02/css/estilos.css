@@ -65,16 +65,47 @@ body {
 	margin-right: 0;
 }
 
-.cabecera header .redes-menu nav a {
+.cabecera header .redes-menu nav a,
+.cabecera header .redes-menu nav a:link,
+.cabecera header .redes-menu nav a:visited,
+.cabecera header .redes-menu nav a:active {
 	font-family: nerissemibold_italic;
 	font-size:18px;
 	display: block;
 	width:100%;
-	padding-top:18.5px;
-	padding-bottom:18.5px;
+	/*padding-top:18.5px;
+	padding-bottom:18.5px;*/
 	text-align: center;
-	line-height: 18px
+	line-height: 55px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #242422;
+	background-color: #f2f2f2;
+	transition: all 350ms;
 }
+
+.cabecera header .redes-menu nav a.item1:hover {
+	background-color: #00bcad;
+}
+
+.cabecera header .redes-menu nav a.item2:hover {
+	background-color: #5d01a4;
+	color:#ffffff;
+}
+
+.cabecera header .redes-menu nav a.item3:hover {
+	background-color: #ffb700;
+	color:#ffffff;	
+}
+
+.cabecera header .redes-menu nav a.item4:hover {
+	background-color: #da156f;
+	color:#ffffff;	
+}
+
+
+
+
 
 
 
