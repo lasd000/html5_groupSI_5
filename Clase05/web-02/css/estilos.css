@@ -44,20 +44,39 @@ body {
 	margin-left:7px;
 }
 
-.cabecera header .redes-menu nav {}
+.cabecera header .redes-menu nav {
+}
 
 .cabecera header .redes-menu nav ul {
+	overflow: hidden;
 	list-style: none;
 	padding: 0;
 	margin:0;
+	background-color: yellow
 }
 
 .cabecera header .redes-menu nav li {
 	float:left;
 	width:200px;
-	height: 55px;
 	margin-right:2px;
 }
+
+.cabecera header .redes-menu nav li.sinMargen{
+	margin-right: 0;
+}
+
+.cabecera header .redes-menu nav a {
+	font-family: nerissemibold_italic;
+	font-size:18px;
+	display: block;
+	width:100%;
+	padding-top:18.5px;
+	padding-bottom:18.5px;
+	text-align: center;
+	line-height: 18px
+}
+
+
 
 
 
