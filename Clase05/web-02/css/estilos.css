@@ -1,0 +1,93 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+
+.cabecera {
+	background-color: red;
+}
+
+.cabecera header {
+	width:1280px;
+	background-color: blue;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	font-size:0;
+	padding-top:9px;
+}
+
+.cabecera header .logo {
+	float:left;
+}
+
+.cabecera header .redes-menu {
+	float: right;
+	width:807px;
+	background-color: brown;
+}
+
+.cabecera header .redes-menu .redes {
+	text-align: right;
+} 
+
+.cabecera header .redes-menu .redes img {
+	margin-left:7px;
+}
+
+.cabecera header .redes-menu nav {}
+
+.cabecera header .redes-menu nav ul {
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+.cabecera header .redes-menu nav li {
+	float:left;
+	width:200px;
+	height: 55px;
+	margin-right:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cuerpo {
+	background-color: green;
+	height: 600px;
+}
+
+.cuerpo main {
+	width:1280px;
+	height: 600px;
+	background-color: pink;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pie {
+	background-color: yellow;
+	height: 200px;
+}
+
+.pie footer {
+	width:1280px;
+	height: 200px;
+	background-color: navy;
+	margin-left: auto;
+	margin-right: auto;
+}
