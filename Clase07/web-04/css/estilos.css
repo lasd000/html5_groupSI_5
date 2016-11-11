@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'nerissemibold_italic';
+    src: url('fonts/597902-webfont.woff2') format('woff2'),
+         url('fonts/597902-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nerislight';
+    src: url('fonts/neris-light-webfont.woff2') format('woff2'),
+         url('fonts/neris-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+.cabecera {
+	position:fixed;
+	background-color: #ffffff;
+	z-index: 100;
+	width: 100%;
+	top:0;
+}
+
+.cabecera header {
+	width:1280px;
+
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	font-size:0;
+	padding-top:9px;
+}
+
+.cabecera header .logo {
+	float:left;
+}
+
+.cabecera header .redes-menu {
+	float: right;
+	width:807px;
+}
+
+.cabecera header .redes-menu .redes {
+	text-align: right;
+} 
+
+.cabecera header .redes-menu .redes img {
+	margin-left:7px;
+}
+
+.cabecera header .redes-menu nav {
+	margin-top:47px;
+}
+
+.cabecera header .redes-menu nav ul {
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+.cabecera header .redes-menu nav li {
+	float:left;
+	width:200px;
+	margin-right:2px;
+}
+
+.cabecera header .redes-menu nav li:last-child{
+	margin-right: 0;
+}
+
+.cabecera header .redes-menu nav a,
+.cabecera header .redes-menu nav a:link,
+.cabecera header .redes-menu nav a:visited,
+.cabecera header .redes-menu nav a:active {
+	font-family: nerissemibold_italic;
+	font-size:18px;
+	display: block;
+	width:100%;
+	/*padding-top:18.5px;
+	padding-bottom:18.5px;*/
+	text-align: center;
+	line-height: 55px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #242422;
+	background-color: #f2f2f2;
+	transition: all 350ms;
+}
+
+.cabecera header .redes-menu nav ul li:nth-child(1) a:hover {
+	background-color: #00bcad;
+}
+
+.cabecera header .redes-menu nav ul li:nth-child(2) a:hover {
+	background-color: #5d01a4;
+	color:#ffffff;
+}
+
+.cabecera header .redes-menu nav ul li:nth-child(3) a:hover {
+	background-color: #ffb700;
+	color:#ffffff;	
+}
+
+.cabecera header .redes-menu nav ul li:nth-child(4) a:hover {
+	background-color: #da156f;
+	color:#ffffff;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cuerpo {
+	background-color: green;
+	height: 858px;
+	background-image: url(../img/banner1.jpg);
+	background-size: cover;
+	margin-top: 159px
+}
+
+.cuerpo main {
+	width:1280px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.cuerpo main div.cronograma {
+	font-family: 'nerislight';
+	width:615px;
+	height: 397px;
+	background-color: #2c303c;
+	position: absolute;
+	right: 0;
+	padding: 40px 60px;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+	/*float:right;*/
+}
+
+.cuerpo main div.cronograma header {
+	margin-bottom: 27px
+}
+
+.cuerpo main div.cronograma header span {
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+
+}
+
+.cuerpo main div.cronograma header span:after {
+	content: "";
+	display: block;
+	height: 15px;
+	width: 36px;
+	background-color: #fff
+}
+
+.cuerpo main div.cronograma div.linea {
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.cuerpo main div.cronograma div.linea h2 {
+	font-size: 20px;
+	margin:0;
+	padding:0;
+	margin-bottom: 7px
+}
+
+.cuerpo main div.cronograma div.linea h3 {
+	font-size: 15px;
+	margin:0;
+	padding:0;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pie {
+	background-color: yellow;
+	height: 200px;
+}
+
+.pie footer {
+	width:1280px;
+	height: 200px;
+	background-color: navy;
+	margin-left: auto;
+	margin-right: auto;
+}
