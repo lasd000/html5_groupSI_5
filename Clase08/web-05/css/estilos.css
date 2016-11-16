@@ -15,6 +15,15 @@
 
 }
 
+@font-face {
+    font-family: 'nerisblack';
+    src: url('fonts/597903-webfont.woff2') format('woff2'),
+         url('fonts/597903-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	margin:0;
 	padding:0;
@@ -244,16 +253,17 @@ body {
 	vertical-align: middle;
 }
 
-.pie footer div.lema {
-	background-color: red;
-}
 
 .pie footer address {
-	font-size: 20px;
+	font-size: 15px;
 	color: #ffffff;
 	font-style: normal;
 	text-align: center;
-	background-color: green
+	font-family: nerislight;
+}
+
+.pie footer address span {
+	font-family: nerisblack
 }
 
 .pie footer address a,
@@ -268,7 +278,10 @@ body {
 	text-decoration: underline;
 }
 
+.pie footer address a:nth-of-type(1) {
+	margin-right: 60px
+}
+
 .pie footer div.logo {
 	text-align: right;
-	background-color: blue
 }
