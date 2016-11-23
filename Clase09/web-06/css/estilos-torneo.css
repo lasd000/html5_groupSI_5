@@ -8,13 +8,42 @@
 	margin-right: auto;
 	position: relative;
 	overflow: hidden;
-	padding-left: 25px
-	padding-right: 25px;
+	font-size: 0
 }
 
 .cuerpo main > div {
-	float: left;
+	display: inline-block;
 	width: 50%;
-	height: 200px;
-	background-color: red
+	font-family: 'nerislight';
+	font-size: 15px;
+	line-height: 20px;
+	text-align: justify;
+	color: #242424;
+}
+
+.cuerpo main > div:nth-child(odd) {
+	padding-right: 11.5px;
+	width: 49.8780487804878%
+}
+
+.cuerpo main > div:nth-child(even) {
+	padding-left: 40.5px;
+	width: 49.8780487804878%;
+}
+
+.cuerpo main h2 {
+	color: #006770;
+	font-size: 50px;
+	line-height: 50px;
+	font-family: 'neristhin_italic';
+	text-transform: uppercase;
+}
+
+.cuerpo main h2:after {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 3px;
+	background-color: #006770;
+	margin-top:9px;
 }
